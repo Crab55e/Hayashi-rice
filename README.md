@@ -2,6 +2,8 @@
 ### ハヤシライス
 
 ハヤシライス３人前の作り方について
+API(Application Programming Interface): 
+RDK(Ryouri Development Kit)のダウンロード: 
 
 ### 材料:
 - 玉ねぎ (1コ)
