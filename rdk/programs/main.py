@@ -1,18 +1,28 @@
-from time import sleep as slp
+try:
+    # import libraries
+    from time import sleep as slp
+    import hrice
 
-eatable_items = []
-for i in range(6):
-    item_eatable = input("食材を渡してください: ")
-    eatable_items.append(item_eatable)
-    print(i+1,"個目の食材が渡されました: ",item_eatable)
-print("現在用意した食材: ",eatable_items)
-slp(3)
-cooking_items = []
-for i in range(6):
-    item_eatable = input("調理器具を準備してください: ")
-    eatable_items.append(item_eatable)
-    print(i+1,"個目の調理器具が渡されました: ",item_eatable)
-print("現在用意した調理器具: ",eatable_items)
+    # enter Eatable items
+    eatable_items = []
+    for i in range(6):
+        eatable_item = input("食材を渡してください: ")
+        eatable_items.append(eatable_item)
+        print(i+1,"個目の食材が渡されました: ",eatable_item)
+    print("現在用意した食材: ",eatable_items)
+    slp(1)
 
-end = input("enterで終了")
-exit()
+    # enter Cooking items
+    cooking_items = []
+    for i in range(6):
+        cooking_item = input("調理器具を準備してください: ")
+        cooking_items.append(cooking_item)
+        print(i+1,"個目の調理器具が渡されました: ",cooking_item)
+    print("現在用意した調理器具: ",cooking_items)
+
+    for i in range(6):
+        hrice.皮をむく(eatable_item[i])
+    end = input("Enterで終了")
+    exit()
+except Exception as e:
+    print(e)
