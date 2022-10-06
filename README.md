@@ -5,7 +5,7 @@
 
 [API(Application Programming Interface)](//crab55e.github.io/Hayashi-rice/needed-items.json)
 
-RDK(Ryouri Development Kit)のダウンロード: 
+[RDK(Ryouri Development Kit)のダウンロード]()
 
 ### 材料:
 - 玉ねぎ (1コ)
