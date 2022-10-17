@@ -1,4 +1,4 @@
-# Hayashi-rice
+# Hayashi-rice | 開発中
 ### ハヤシライス
 
 ハヤシライス３人前の作り方について
