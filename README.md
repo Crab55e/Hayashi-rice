@@ -3,7 +3,7 @@
 
 ハヤシライス３人前の作り方について
 
-[API(Application Programming Interface)](//crab55e.github.io/Hayashi-rice/needed-items.json)
+[API(Application Programming Interface)](//crab55e.github.io/Hayashi-rice/requirements.json)
 
 [RDK(Ryouri Development Kit)のダウンロード]()
 
